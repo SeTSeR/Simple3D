@@ -7,8 +7,8 @@
 const axis = rotate(new Vector3D(0, 0, 1), Math.PI / 6, new Vector3D(0, 1, 0));
 const width = 800
 const height = 700
-const sqrtphi = 1.63600982476
-const halfphi = 0.30901699437
+const sqrtphi = 1.61803398875
+const halfphi = 2*0.30901699437
 const polygon = [
     new Vector3D(1, 1, 1),
     new Vector3D(-1, 1, 1),
